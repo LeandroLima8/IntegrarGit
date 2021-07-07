@@ -20,7 +20,8 @@ namespace IntegrarGit_GithubVS19.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            if (true) { return View(); } else { Console.WriteLine("Erro no cilo if!!!"); }
+            
         }
 
         public IActionResult Privacy()
